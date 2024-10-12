@@ -1,0 +1,41 @@
+<SmartAssemblyProject ProjectId="{0593dcfa-1e1c-4852-b886-d5b76e1ea057}" Version="2.0">
+	<MainAssemblyFileName>
+		.\bin\Debug\net7.0\FallenAngel.dll
+	</MainAssemblyFileName>
+	<FriendlyName>
+		VintageMods
+	</FriendlyName>
+	<CompanyName>
+		ApacheTech Solutions
+	</CompanyName>
+	<Configuration Name="Release">
+		<Options>
+			<ExceptionReporting ReportExceptions="0" Template="res:{SmartExceptions}.NoUI.dll" />
+			<FeatureUsageReporting Template="res:SmartUsageWithoutUI.dll" />
+			<StringsEncoding Compress="1" Encode="0" UseCache="1" UseImprovedEncoding="1" />
+			<OtherProtections SuppressIldasm="1" />
+			<OtherOptimizations SealClasses="1" />
+			<Debugging CreatePDB="1" />
+			<CopyDependencies />
+			<StrongNameSigning Sign="0" />
+		</Options>
+		<ApplicationName>
+			VintageMods
+		</ApplicationName>
+		<Destination DestinationFileName=".\bin\Debug\net7.0\merged\FallenAngel.dll" />
+		<Assemblies>
+			<Assembly AssemblyName="ApacheTech.Common.DependencyInjection, Culture=neutral, PublicKeyToken=null">
+				<Merging Merge="1" />
+			</Assembly>
+			<Assembly AssemblyName="ApacheTech.Common.Extensions.Harmony, Culture=neutral, PublicKeyToken=null">
+				<Merging Merge="1" />
+			</Assembly>
+			<Assembly AssemblyName="ApacheTech.Common.Extensions, Culture=neutral, PublicKeyToken=null">
+				<Merging Merge="1" />
+			</Assembly>
+			<Assembly AssemblyName="Gantry, Culture=neutral, PublicKeyToken=null">
+				<Merging Merge="1" />
+			</Assembly>
+		</Assemblies>
+	</Configuration>
+</SmartAssemblyProject>
