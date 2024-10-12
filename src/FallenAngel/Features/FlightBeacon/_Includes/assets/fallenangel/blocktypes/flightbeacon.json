@@ -1,0 +1,113 @@
+{
+  // ==================================================
+  //  Basics
+  // ==================================================
+  "code": "flightbeacon",
+  "class": "BlockFlightBeacon",
+  "entityclass": "BlockEntityFlightBeacon",
+
+  // ==================================================
+  //  Shape
+  // ==================================================
+  "drawtype": "JSON",
+  "shape": { "base": "block/flightbeacon" },
+  "sidesolid": { "all": "false" },
+  "sideopaque": { "all": "false" },
+  "textures": {
+    "core": { "base": "block/flightbeacon/flightbeacon-face" },
+    "frame": { "base": "block/flightbeacon/flightbeacon-frame" }
+  },
+
+  // ==================================================
+  //  Inventory
+  // ==================================================
+  "creativeinventory": {
+    "general": [ "*" ],
+    "decorative": [ "*" ]
+  },
+
+  // ==================================================
+  //  Materials
+  // ==================================================
+  "blockmaterial": "Metal",
+  "replaceable": 0,
+  "resistance": 90,
+  "storageFlags": 261,
+  "requiredMiningTier": 4,
+
+  // ==================================================
+  //  Lighting
+  // ==================================================
+  "lightAbsorption": 0,
+  "lighthsv": [ 4, 3, 18 ],
+  "vertexFlags": {
+    "glowLevel": 128
+  },
+
+  // ==================================================
+  //  Handbook Entries
+  // ==================================================
+  "attributes": {
+    "handbook": {
+      "extraSections": [
+        {
+          "title": "fallenangel:handbooktitle-flightbeacon-usage",
+          "text": "fallenangel:handbooktext-flightbeacon-usage"
+        }
+      ]
+    }
+  },
+
+  // ==================================================
+  //  Sounds
+  // ==================================================
+  "sounds": {
+    "place": "game:block/anvil",
+    "walk": "game:walk/stone",
+    "ambient": "fallenangel:effect/flightbeacon-idle",
+
+    "byTool": {
+      "Pickaxe": {
+        "hit": "game:block/meteoriciron-hit-pickaxe",
+        "break": "game:block/rock-break-pickaxe"
+      }
+    }
+  },
+
+  // ==================================================
+  //  Animation
+  // ==================================================
+  "heldLeftTpIdleAnimation": "holdinglanternlefthand",
+  "heldTpIdleAnimation": "holdbothhandslarge",
+  "heldTpUseAnimation": "twohandplaceblock",
+
+  // ==================================================
+  //  Rendering
+  // ==================================================
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.2,
+      "y": -1.1,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": -2,
+      "y": 25,
+      "z": -78
+    },
+    "scale": 0.37
+  },
+  "tpOffHandTransform": {
+    "translation": {
+      "x": -0.6,
+      "y": -1.6,
+      "z": -1.3
+    },
+    "rotation": {
+      "x": 12,
+      "y": -6,
+      "z": -92
+    },
+    "scale": 0.37
+  }
+}

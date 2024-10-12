@@ -1,4 +1,4 @@
-using ApacheTech.Common.DependencyInjection.Abstractions
+using ApacheTech.Common.DependencyInjection.Abstractions;
 using Gantry.Core.Hosting;
 using Gantry.Services.FileSystem.Hosting;
 using Gantry.Services.HarmonyPatches.Hosting;

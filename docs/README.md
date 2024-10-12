@@ -1,6 +1,6 @@
 # FallenAngel
 
-TODO
+Restricts the use of an angel belt, on a multiplayer server.
 
 ## Support the Mod Author
 

@@ -9,6 +9,31 @@
 		<Exclude Include="**\.gitkeep" />
 	</ItemGroup>
 	<ItemGroup>
+	  <Exclude Remove="Features\FlightBeacon\_Includes\.gitkeep" />
+	  <Exclude Remove="Features\FlightBeacon\_Includes\assets\.gitkeep" />
+	  <Exclude Remove="Features\FlightBeacon\_Includes\assets\fallenangel\lang\.gitkeep" />
+	  <Exclude Remove="Features\FlightBeacon\_Includes\assets\fallenangel\recipes\.gitkeep" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="Features\FlightBeacon\_Includes\assets\fallenangel\blocktypes\flightbeacon.json" />
+	  <None Remove="Features\FlightBeacon\_Includes\assets\fallenangel\lang\beacon\en.json" />
+	  <None Remove="Features\FlightBeacon\_Includes\assets\fallenangel\recipes\grid\flightbeacon.json" />
+	  <None Remove="Features\FlightBeacon\_Includes\assets\fallenangel\shapes\block\flightbeacon.json" />
+	</ItemGroup>
+	<ItemGroup>
 		<ProjectReference Include="..\..\..\..\Gantry\src\Gantry\Gantry.csproj" />
+						  
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="AngelBelt">
+	    <HintPath>..\..\ref\AngelBelt\mod\AngelBelt.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Resource Include="Features\FlightBeacon\_Includes\assets\fallenangel\blocktypes\flightbeacon.json" />
+	  <Resource Include="Features\FlightBeacon\_Includes\assets\fallenangel\lang\beacon\en.json" />
+	  <Resource Include="Features\FlightBeacon\_Includes\assets\fallenangel\recipes\grid\flightbeacon.json" />
+	  <Resource Include="Features\FlightBeacon\_Includes\assets\fallenangel\shapes\block\flightbeacon.json" />
 	</ItemGroup>
 </Project>

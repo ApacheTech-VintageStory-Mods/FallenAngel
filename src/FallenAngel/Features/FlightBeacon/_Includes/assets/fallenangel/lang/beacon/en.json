@@ -1,0 +1,18 @@
+{
+  "block-flightbeacon": "Flight Beacon",
+  "handbooktitle-flightbeacon-usage": "Usage",
+  "handbooktext-flightbeacon-usage": "The angel belt will only be available for use within the radius set by this beacon.",
+
+  "Features.FlightBeacon.Dialogue.Title": "Flight Beacon Settings",
+
+  "Features.FlightBeacon.Dialogue.lblEnabled": "Enabled:",
+  "Features.FlightBeacon.Dialogue.lblEnabled.HoverText": "Players will only be able to fly using the angel belt, when it is enabled.",
+
+  "Features.FlightBeacon.Dialogue.lblRadius": "Radius:",
+  "Features.FlightBeacon.Dialogue.lblRadius.HoverText": "Players will only be able to fly using the angel belt, within range the beacon.",
+
+  "Features.FlightBeacon.Interactions.OpenGUI": "Change Settings",
+
+  "Features.FlightBeacon.Dialogue.lblAmbientVolume": "Ambient Volume:",
+  "Features.FlightBeacon.Dialogue.lblAmbientVolume.HoverText": "The volume at which the ambient sounds are played."
+}
